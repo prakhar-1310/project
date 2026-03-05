@@ -1,0 +1,25 @@
+here, .mvn, mvnw, mvnw.cmd are maven wrapup files
+
+part3:
+dependencies: spring web, spring security, lombok, jpa, postrgresSql, h2, oauth2 resource
+H2 for db configured for testing environment
+
+PostgreSQL:-
+PostgreSQL runs in docker for consistent local development
+Adminer provides a web interface for db management
+SpringBoot Connects to PostreSQl using configuration properties
+JPA automatically manages db schemas changes
+
+Keycloak:-
+set up keycloak using docker compose with data persistence
+created realms, client, and test user in keycloak
+connected springBoot app to keycloak for jwt validation
+
+Mapstruct:-
+Added mapstruct dependency and version property to the project
+configured maven compiler plugins for annotation processing
+setup lombok-mapstruct binding for compatibility
+
+
+
+
